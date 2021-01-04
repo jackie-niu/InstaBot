@@ -1,0 +1,4 @@
+discord.py
+instaloader
+schedule
+mysql-connector
