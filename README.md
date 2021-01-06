@@ -5,4 +5,7 @@ InstaBot is a Discord bot created to help users track their followers.
 run pip install -r requirements.txt first.
 
 ### Commands
-Editing this later when this project is complete
+`$addprofile instagramusername` will add your profile to the database
+
+### Bugs
+Scheduled messages aren't written correctly, will update this sometime later
