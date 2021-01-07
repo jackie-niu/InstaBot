@@ -75,6 +75,7 @@ async def addprofile(ctx, arg):
             )
 
             await ctx.send(embed=embed)
+            
     # if profile is in the database
     else:
         embed = discord.Embed(
