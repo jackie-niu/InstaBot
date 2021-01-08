@@ -131,7 +131,7 @@ async def calculateFollowers(ctx, userid, channel, profile):
     query = "SELECT * FROM followers WHERE day = %s AND follows = %s"
     args = (yesterday, userid)
     cursor.execute(query, args)
-    values = cursor.fetchall()
+    followers = cursor.fetchall()
 
     for follower in followers:
         yesterdayFollowers.append(follower[2])
