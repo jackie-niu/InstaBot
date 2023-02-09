@@ -6,6 +6,3 @@ run pip install -r requirements.txt first.
 
 ### Commands
 `$addprofile instagramusername` will add your profile to the database
-
-### Bugs
-Scheduled messages aren't working correctly, will update this sometime later
